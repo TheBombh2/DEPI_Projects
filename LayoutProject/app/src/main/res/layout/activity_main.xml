@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button"
+        android:textSize="30sp"
+        android:padding="50dp"
+        android:id="@+id/bigButton"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/teal_200"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textColor="@color/purple_500"
+        android:background="@color/purple_500"
+        android:layout_above="@+id/bigButton"
+        android:layout_alignStart="@+id/bigButton"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textColor="@color/purple_500"
+        android:background="@color/purple_500"
+        android:layout_below="@+id/bigButton"
+        android:layout_alignEnd="@+id/bigButton"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textColor="@color/purple_500"
+        android:background="@color/purple_500"
+        android:layout_toEndOf="@+id/bigButton"
+        android:layout_alignTop="@id/bigButton"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textColor="@color/purple_500"
+        android:background="@color/purple_500"
+        android:layout_toStartOf="@+id/bigButton"
+        android:layout_alignBottom="@id/bigButton"
+        />
+
+
+
+</RelativeLayout>
