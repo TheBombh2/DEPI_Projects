@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Login Screen Assignement</string>
+    <string name="phone_number_text">Phone Number</string>
+    <string name="password_text">Password</string>
+    <string name="remember_me_text">Remember me</string>
+    <string name="forget_password_text">Forget Password ?</string>
+    <string name="login_text">Login</string>
+    <string name="sign_up_text">Sign Up</string>
+</resources>
