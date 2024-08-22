@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BooksReviewApp</string>
+    <string name="book_cover_photo_content_description">Book Cover Photo</string>
+    <string name="book_title_place_holder">Book Title</string>
+    <string name="book_author_place_holder">Book Author</string>
+    <string name="want_to_read_text">Want to read</string>
+    <string name="notifications_action">Notifications</string>
+    <string name="my_name">Belal Salem</string>
+    <string name="reviews_text">Reviews</string>
+    <string name="favorite_text">Favorite</string>
+    <string name="search_text">Search</string>
+    <string name="profile_text">Profile</string>
+    <string name="settings_text">Settings</string>
+</resources>
