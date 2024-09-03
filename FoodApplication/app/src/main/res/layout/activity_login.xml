@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LoginActivity"
+        android:background="@color/light_grey">
+
+        <ImageView
+            android:id="@+id/iv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/login_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="100dp" />
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            style="@style/TextAppearance.MaterialComponents.Headline5"
+            app:layout_constraintEnd_toEndOf="@id/iv_login"
+            app:layout_constraintStart_toStartOf="@id/iv_login"
+            app:layout_constraintTop_toBottomOf="@id/iv_login"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tf_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tv_login"
+            app:layout_constraintEnd_toEndOf="@id/tv_login"
+            app:layout_constraintStart_toStartOf="@id/tv_login"
+            android:layout_margin="20dp"
+            android:hint="Name"
+            android:textColorHint="@android:color/darker_gray"
+            style="?attr/textInputFilledStyle"
+            app:boxBackgroundColor="@color/light_orange"
+            app:shapeAppearance="?attr/shapeAppearanceCornerMedium"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tf_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tf_name"
+            app:layout_constraintEnd_toEndOf="@id/tf_name"
+            app:layout_constraintStart_toStartOf="@id/tf_name"
+            android:layout_margin="20dp"
+            android:hint="Password"
+            android:textColorHint="@android:color/darker_gray"
+            style="?attr/textInputFilledStyle"
+            app:boxBackgroundColor="@color/light_orange"
+            app:shapeAppearance="?attr/shapeAppearanceCornerMedium"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:backgroundTint="@color/orange"
+            app:layout_constraintTop_toBottomOf="@id/tf_password"
+            app:layout_constraintEnd_toEndOf="@id/tf_password"
+            app:layout_constraintStart_toStartOf="@id/tf_password"
+            android:layout_marginTop="30dp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
